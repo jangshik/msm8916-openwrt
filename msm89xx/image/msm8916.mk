@@ -50,4 +50,15 @@ define Device/generic-uf02
 endef
 TARGET_DEVICES += generic-uf02
 
+define Device/thwc-ufi001c
+  $(Device/msm8916)
+  DEVICE_VENDOR := THWC
+  DEVICE_MODEL := UFI001C
+  FILESYSTEMS := squashfs
+  DEVICE_PACKAGES := wpad-basic-wolfssl rmtfs uci-usb-gadget \
+                     block-mount f2fs-tools \
+                     msm-firmware-dumper
+endef
+TARGET_DEVICES += thwc-ufi001c
+
 endif
