@@ -16,7 +16,8 @@ Signed-off-by: hkfuertes <hkfuertes@example.com>
  dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-j3ltetw.dtb
  dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-j5.dtb
 +dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-generic-uf02.dtb
++dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-thwc-ufi001c.dtb
  dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-j5x.dtb
  dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-rossa.dtb
  dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsung-serranove.dtb
-+dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-thwc-ufi001c.dtb
+
