@@ -4,10 +4,6 @@ Subject: [PATCH] arm64: dts: qcom: Add UF02 and UFI001C to Makefile
 
 Add msm8916-generic-uf02.dtb and msm8916-thwc-ufi001c.dtb to Makefile.
 
----
- arch/arm64/boot/dts/qcom/Makefile | 2 ++
- 1 file changed, 2 insertions(+)
-
 --- a/arch/arm64/boot/dts/qcom/Makefile
 +++ b/arch/arm64/boot/dts/qcom/Makefile
 @@ -23,6 +23,8 @@ dtb-$(CONFIG_ARCH_QCOM)	+= msm8916-samsu
